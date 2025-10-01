@@ -14,12 +14,12 @@ printf("2.500 MB , KES 200\n");
 printf("3. 1GB ,KES 350 \n");
 printf("4. 2GB ,KES 600\n");
 
+//prompt the user to enter choice
 printf("Enter your choice 1-4");
 scanf("%d",&choice);
 
 switch(choice){
 
- 
 case 1:
 printf("Select 100MB,cost: KES 50\n ");
 break;
