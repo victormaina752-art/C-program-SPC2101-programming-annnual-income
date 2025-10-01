@@ -1,0 +1,30 @@
+/*
+Name : VICTOR MAINA KURIA
+reg.no:PA106/G/28732/25
+description:program to display bills for water units
+*/
+
+#include <stdio.h>
+
+int main (){
+
+//variable declaration 
+int units ;
+float bill;
+
+printf("Enter the number of water units consumed");
+scanf("%d", &units);
+
+if(units<=30){
+ bill = units * 20;
+}
+else if(units<60){
+ bill=units * 25;
+}
+else {
+ bill=units * 30;
+}
+
+printf("Total water bill is KES %.2f \n",bill);
+return 0;
+}
