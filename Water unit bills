@@ -12,9 +12,11 @@ int main (){
 int units ;
 float bill;
 
+//prompt the use to enter number of water units consumed
 printf("Enter the number of water units consumed");
 scanf("%d", &units);
 
+//units eligibility
 if(units<=30){
  bill = units * 20;
 }
