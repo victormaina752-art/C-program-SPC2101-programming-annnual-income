@@ -1,0 +1,44 @@
+/*
+Name:VICTOR MAINA KURIA
+Reg.no:PA106/G/28732/25
+Description:Prgram to display mobile data bundle purchase
+*/
+#include<stdio.h>
+
+int main(){
+//variable declaration 
+int choice;
+
+printf("1.100 MB ,KES 50 \n");
+printf("2.500 MB , KES 200\n");
+printf("3. 1GB ,KES 350 \n");
+printf("4. 2GB ,KES 600\n");
+
+printf("Enter your choice 1-4");
+scanf("%d",&choice);
+
+switch(choice){
+
+ 
+case 1:
+printf("Select 100MB,cost: KES 50\n ");
+break;
+
+case 2:
+printf("Select 500MB,cost: KES 200\n ");
+break;
+
+case 3:
+printf(" Select 1GB ,cost: KES 350\n");
+break;
+
+case 4:
+printf(" Select 2GB ,cost:KES 600\n");
+break;
+
+default:
+printf("invalid choice! kindly select between 1 and 4 \n");
+}
+
+return 0;
+}
