@@ -1,0 +1,30 @@
+/*
+Name:VICTOR MAINA KURIA
+reg.no:PA106/G/28732/25
+description:Program to display exam eligiilty
+
+#include<stdio.h>;
+
+int main (){
+
+//variable declaration 
+float averagemarks,attendance;
+
+//prompt the user to display attendance 
+printf("Enter your attendance");
+scanf("%f", &attendance);
+
+//prompt the user to display average marks
+printf("Enter your average marks");
+scanf("%f",&averagemarks);
+ 
+ //confirm eligibility 
+if(attendance>=75 && averagemarks>=40){
+printf("student is eligible for final exam \n");
+}
+else{
+printf("student is not eligible for final exam \n");
+}
+
+return 0;
+}
