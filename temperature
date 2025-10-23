@@ -1,0 +1,27 @@
+/*
+Name: VICTOR MAINA KURIA 
+Reg no: PA106/G/28732/25
+Description: Function to convert Fahrenheit to Celsius 
+*/
+
+#include<stdio.h>
+
+//Function to convert Fahrenheit to Celsius
+float converttoCelcius(float fahrenheit){
+      float celcius;
+      celcius= (fahrenheit-32)*5/9;
+      return celcius;
+}      
+
+int main(){
+    float fahrenheit,celcius;
+    
+    printf("Enter temperature in Fahrenheit ");
+    scanf("%f", &fahrenheit);
+    
+    celcius= converttoCelcius(fahrenheit);
+    
+    printf("Temperature in celcius: %2.f°C\n", celcius);
+    
+    return 0;
+}
