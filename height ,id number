@@ -1,0 +1,39 @@
+/*
+name: victor maina kuria 
+registration number:PA106/G/28732/25
+descriptions: program to display height,ID number,bank balance ,GitHub.com, personal email 
+*/
+#include<stdio.h>
+
+int main() {
+//variable declaration 
+float height,IDnumber,bankbalance;
+char github,emailaddress;
+//prompt the user to display height 
+
+printf("Enter your height (in metres)");
+scanf("%f,",&height );
+printf("your age is %d", height);
+
+//prompt the user to display IDnumber 
+printf("Enter your IDnumber");
+scanf("%f",&IDnumber);
+printf("Your ID number is %f",IDnumber);
+//prompt the user to display bank balance
+
+printf("Enter your bankbalance(in KES");
+scanf("%f",&bankbalance);
+printf("Your balance is %f",bankbalance);
+
+//prompt the user to display github.com
+printf("Enter your github.com");
+scanf("%s",&github);
+printf("Your github.com is %f",github);
+
+//prompt the user to display email address 
+printf("Enter your emailaddress");
+scanf("%s",emailaddress);
+printf("Your emailaddress is %f", emailaddress);
+
+return 0;
+}
